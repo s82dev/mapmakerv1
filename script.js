@@ -47,6 +47,7 @@ function draw(){
 
     ctx.clearRect(0,0,canvas.width,canvas.height);
 
+    // MAP
     for(let y=0;y<map.height;y++){
 
         for(let x=0;x<map.width;x++){
@@ -70,9 +71,45 @@ function draw(){
 
     }
 
+    // Kisten
+    if(map.objects){
+
+        for(const obj of map.objects){
+
+            if(obj.type === "chest"){
+
+                ctx.fillStyle="#8B4513";
+                ctx.fillRect(
+                    obj.x*TILE+4,
+                    obj.y*TILE+4,
+                    24,
+                    24
+                );
+
+                ctx.fillStyle="gold";
+                ctx.fillRect(
+                    obj.x*TILE+8,
+                    obj.y*TILE+8,
+                    16,
+                    6
+                );
+
+            }
+
+        }
+
+    }
+
+    // Spieler
     ctx.fillStyle="yellow";
     ctx.beginPath();
-    ctx.arc(player.x*TILE+16,player.y*TILE+16,10,0,Math.PI*2);
+    ctx.arc(
+        player.x*TILE+16,
+        player.y*TILE+16,
+        10,
+        0,
+        Math.PI*2
+    );
     ctx.fill();
 
 }
