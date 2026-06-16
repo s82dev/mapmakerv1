@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2D RPG</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h2>2D RPG</h2>
+    <h1>2D RPG</h1>
 
-<input type="file" id="file" accept=".json">
+    <div id="gameContainer">
 
-<br><br>
+        <div id="leftSide">
 
-<canvas id="game" width="640" height="640"></canvas>
+            <input type="file" id="file" accept=".json">
 
-<script src="script.js"></script>
+            <br><br>
+
+            <canvas id="game" width="640" height="640"></canvas>
+
+        </div>
+
+        <div id="inventory">
+
+            <h2>🎒 Inventar</h2>
+
+            <hr>
+
+            <p>🪙 Gold: <span id="gold">0</span></p>
+
+            <p>🔑 Schlüssel: <span id="keys">0</span></p>
+
+            <p>🧪 Tränke: <span id="potions">0</span></p>
+
+            <hr>
+
+            <h3>Items</h3>
+
+            <div id="items">
+                <p>Leer</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
