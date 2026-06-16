@@ -1,5 +1,0 @@
-export class Engine{
- start(){
-   console.log("RPG Engine V2 Scaffold");
- }
-}
