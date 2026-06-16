@@ -1,0 +1,136 @@
+{
+  "startMap": "welt",
+  "maps": {
+    "welt": {
+      "width": 10,
+      "height": 10,
+      "spawn": {
+        "x": 1,
+        "y": 1
+      },
+      "tiles": [
+        [
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass"
+        ],
+        [
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass"
+        ],
+        [
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass"
+        ],
+        [
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass"
+        ],
+        [
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass"
+        ],
+        [
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass"
+        ],
+        [
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass"
+        ],
+        [
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass"
+        ],
+        [
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass"
+        ],
+        [
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass",
+          "grass"
+        ]
+      ],
+      "objects": []
+    }
+  }
+}
