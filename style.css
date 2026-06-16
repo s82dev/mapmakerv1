@@ -1,17 +1,11 @@
 body{
-    margin:0;
     background:#222;
     color:white;
-    font-family:Arial;
+    font-family:Arial,sans-serif;
     text-align:center;
 }
 
 canvas{
     border:3px solid white;
-    margin-top:20px;
     image-rendering:pixelated;
-}
-
-input{
-    margin:20px;
 }
