@@ -1,1 +1,0 @@
-document.getElementById('file').onchange=e=>{const r=new FileReader();r.onload=()=>{const d=JSON.parse(r.result);alert('Startmap: '+d.startMap+'\nMaps: '+Object.keys(d.maps).join(', '));};r.readAsText(e.target.files[0]);};
